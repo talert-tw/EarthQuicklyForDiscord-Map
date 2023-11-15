@@ -263,8 +263,8 @@ select.onchange = event => {
 function QuakeSelect(num) {
     NowMode = 0;
     document.getElementById("NowMode").innerText = "地震情報画面";
-    PW.setRadius(0);
-    SW.setRadius(0);
+    //PW.setRadius(0);
+    //SW.setRadius(0);
 
     marker = L.featureGroup();
 
