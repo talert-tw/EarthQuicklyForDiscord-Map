@@ -27,7 +27,7 @@
     <div class="container">
         <div id="map" style="background-color: #181C18;"></div>
     </div>
-    <div id="Map_Text">
+    <div id="Map_Text" hidden>
         <div id="MT_Title">地震情報</div>
         <div id="MT_Time">00月00日 00時00分ごろ発生</div>
     </div>
@@ -49,10 +49,10 @@
         <h3 id="tsunami"></h3>
         <h1 id="maxshindo"></h1>
     </div>
-    <button onclick="footer()" id="footerbutton">⌂</button>
-    <h3 id="MapAbout">地震情報 : 気象庁, 強震モニタ : Yahoo!Japan</h3>
-    <h2 id="NowMode">地震情報画面</h2>
-    <h2 id="Clock">0000/00/00 00:00:00</h2>
+    <button onclick="footer()" id="footerbutton" hidden>⌂</button>
+    <h3 id="MapAbout" hidden>地震情報 : 気象庁</h3>
+    <h2 id="NowMode" hidden>地震情報画面</h2>
+    <h2 id="Clock" hidden>0000/00/00 00:00:00</h2>
     <footer id="footer">
         <button onclick="test()" id="testbutton">リプレイ</button>
         <button onclick="about()" id="aboutbutton">このサイトについて</button>

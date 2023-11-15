@@ -122,10 +122,12 @@ body {
     height: 30px;
     width: 410px;
     left: 0px;
+    font-size: 20px;
     z-index: 2000;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     text-align: center;
+    font-weight: 300;
 }
 #NowMode{
     top: -20px;
