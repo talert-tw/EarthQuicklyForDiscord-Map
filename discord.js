@@ -23,7 +23,7 @@ var CityMaxShindo = Array(1897);
 
 GetJson();
 
-var map = L.map('map', { preferCanvas: true, zoomControl: false, worldCopyJump: true, minZoom: 3, maxZoom: 12 }).setView([36.575, 135.984], 5);
+var map = L.map('map', { preferCanvas: true, zoomControl: false, worldCopyJump: true, minZoom: 3, maxZoom: 15 }).setView([36.575, 135.984], 5);
 var geojsonLayer_Japan;
 var geojsonLayer_Saibun;
 var geojsonLayer_Cities;
@@ -753,7 +753,7 @@ function QuakeSelect(num) {
         if (Quake_Mode != 2) {
             map.fitBounds(marker.getBounds());
         } else {
-            map.fitBounds(marker.getBounds(), { maxZoom: 8 });
+            map.fitBounds(marker.getBounds(), { maxZoom: 9 });
         }
     } else if (QuakeJson[num]["issue"]["type"] == "Destination") {
         if (Number(QuakeJson[num]["earthquake"]["hypocenter"]["magnitude"]).toFixed(1) < 5.5) {
@@ -762,7 +762,7 @@ function QuakeSelect(num) {
             map.flyTo(new L.LatLng(QuakeJson[num]["earthquake"]["hypocenter"]["latitude"], QuakeJson[num]["earthquake"]["hypocenter"]["longitude"]), 45 / (Number(QuakeJson[num]["earthquake"]["hypocenter"]["magnitude"]).toFixed(1)), { duration: 1 });
         }
     } else if (QuakeJson[num]["issue"]["type"] == "ScalePrompt") {
-        map.fitBounds(marker.getBounds(), { maxZoom: 8 });
+        map.fitBounds(marker.getBounds(), { maxZoom: 9 });
     } else if (QuakeJson[num]["issue"]["type"] == "Foreign") {
         map.flyTo(new L.LatLng(QuakeJson[num]["earthquake"]["hypocenter"]["latitude"], QuakeJson[num]["earthquake"]["hypocenter"]["longitude"]), 3, { duration: 1 });
     }
