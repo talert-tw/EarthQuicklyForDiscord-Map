@@ -85,7 +85,7 @@ map.on('zoomend', function () {
     } else {
         map.removeLayer(geojsonLayer_Cities);
     }
-    if (zoom > 7) {
+    if (zoom > 8) {
         map.addLayer(Moji_Layer);
     } else {
         map.removeLayer(Moji_Layer);
