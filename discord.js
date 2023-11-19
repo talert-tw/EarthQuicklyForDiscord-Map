@@ -980,7 +980,7 @@ function FillPolygon(mode, num, color) {
             if (array_Num != -1) {
                 var style = {
                     "color": "#FFFFFF",
-                    "weight": 0,
+                    "weight": 2,
                     "fillColor": color,
                     fillOpacity: 1
                 }
