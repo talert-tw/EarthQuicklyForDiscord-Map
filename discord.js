@@ -117,6 +117,9 @@ map.on('zoomend', function () {
     //FillPolygon(2,"2610400","#FF0000");
 });
 
+document.getElementById("Map_Text").style.visibility = "hidden";
+document.getElementById("Line_Legend").style.visibility = "hidden";
+
 if (localStorage.getItem('QuakeInterval') != null) {
     GetQuakeInterval = Number(localStorage.getItem('QuakeInterval')) * 1000;
 }

@@ -265,7 +265,7 @@ body {
   color: black;
   top: 10px;
   left: 0px;
-  width: 240px;
+  width: 265px;
   border: 4px solid red;
   border-left: 0px;
   height: 65px;
@@ -291,8 +291,9 @@ body {
   border-radius: 2px;
   top: 90px;
   left: 10px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 0, 0.4);
   z-index: 10001;
+  backdrop-filter: blur(3px);
 }
 #LL_Text_MTW {
   position: absolute;
