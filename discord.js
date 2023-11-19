@@ -979,7 +979,7 @@ function FillPolygon(mode, num, color) {
             const array_Num = Tsunami_AreaCode.indexOf(num);
             if (array_Num != -1) {
                 var style = {
-                    "color": "#FFFFFF",
+                    "color": color,
                     "weight": 10,
                     "fillColor": color,
                     fillOpacity: 1
