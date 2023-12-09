@@ -28,6 +28,12 @@ var CityMaxShindo = Array(1897);
 GetJson();
 
 var map = L.map('map', { preferCanvas: true, zoomControl: false, worldCopyJump: true, minZoom: 3, maxZoom: 15 }).setView([36.575, 135.984], 5);
+
+const elem = document.getElementsByClassName('leaflet-right')
+if (0 < elem.length) {
+    [...elem].forEach(v => { return v.remove() })
+}
+
 var geojsonLayer_Japan;
 var geojsonLayer_Saibun;
 var geojsonLayer_Cities;
