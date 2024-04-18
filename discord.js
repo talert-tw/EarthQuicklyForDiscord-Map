@@ -68,25 +68,25 @@ var EEW_Use = 1;
 
 var footer_open = false;
 
-var Color_1 = "#46646e";
+var Color_1 = "#205070";
 var MojiColor_1 = "#ffffff";
-var Color_2 = "#1e6ee6";
+var Color_2 = "#308FBF";
 var MojiColor_2 = "#ffffff";
-var Color_3 = "#00c8c8";
+var Color_3 = "#84D384";
 var MojiColor_3 = "#000000";
-var Color_4 = "#ffff64";
+var Color_4 = "#FFE730";
 var MojiColor_4 = "#000000";
-var Color_50 = "#ffb400";
+var Color_50 = "#FFA030";
 var MojiColor_50 = "#000000";
-var Color_55 = "#ff7800";
+var Color_55 = "#EF6400";
 var MojiColor_55 = "#000000";
-var Color_60 = "#e60000";
+var Color_60 = "#CF1010";
 var MojiColor_60 = "#ffffff";
-var Color_65 = "#a00000";
+var Color_65 = "#701010";
 var MojiColor_65 = "#ffffff";
-var Color_7 = "#960096";
+var Color_7 = "#AB20B2";
 var MojiColor_7 = "#ffffff";
-var Color_0 = "#008b8b";
+var Color_0 = "#303030";
 var MojiColor_0 = "#ffffff";
 
 map.on('zoomend', function () {
