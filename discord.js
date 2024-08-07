@@ -494,43 +494,43 @@ function QuakeSelect(num) {
                 var PointShindo = "";
                 var PointColor;
                 if (element == "10") {
-                    ImgUrl = "Source/map_1.jpg"
+                    ImgUrl = "Source/map_1.png"
                     PointShindo = "震度1";
                     PointColor = Color_1;
                 } else if (element == "20") {
-                    ImgUrl = "Source/map_2.jpg"
+                    ImgUrl = "Source/map_2.png"
                     PointColor = Color_2;
                     PointShindo = "震度2";
                 } else if (element == "30") {
-                    ImgUrl = "Source/map_3.jpg"
+                    ImgUrl = "Source/map_3.png"
                     PointColor = Color_3;
                     PointShindo = "震度3";
                 } else if (element == "40") {
-                    ImgUrl = "Source/map_4.jpg"
+                    ImgUrl = "Source/map_4.png"
                     PointColor = Color_4;
                     PointShindo = "震度4";
                 } else if (element == "50") {
-                    ImgUrl = "Source/map_50.jpg"
+                    ImgUrl = "Source/map_50.png"
                     PointColor = Color_50;
                     PointShindo = "震度5弱";
                 } else if (element == "50") {
-                    ImgUrl = "Source/map_50.jpg"
+                    ImgUrl = "Source/map_50.png"
                     PointColor = Color_50;
                     PointShindo = "震度5弱以上と推定";
                 } else if (element == "55") {
-                    ImgUrl = "Source/map_55.jpg"
+                    ImgUrl = "Source/map_55.png"
                     PointColor = Color_55;
                     PointShindo = "震度5強";
                 } else if (element == "60") {
-                    ImgUrl = "Source/map_60.jpg"
+                    ImgUrl = "Source/map_60.png"
                     PointColor = Color_60;
                     PointShindo = "震度6弱";
                 } else if (element == "65") {
-                    ImgUrl = "Source/map_65.jpg"
+                    ImgUrl = "Source/map_65.png"
                     PointColor = Color_65;
                     PointShindo = "震度6強";
                 } else if (element == "70") {
-                    ImgUrl = "Source/map_7.jpg"
+                    ImgUrl = "Source/map_7.png"
                     PointColor = Color_7;
                     PointShindo = "震度7";
                 }
@@ -550,43 +550,43 @@ function QuakeSelect(num) {
             var PointShindo = "";
             var PointColor;
             if (element == "10") {
-                ImgUrl = "Source/map_1.jpg"
+                ImgUrl = "Source/map_1.png"
                 PointShindo = "震度1";
                 PointColor = Color_1;
             } else if (element == "20") {
-                ImgUrl = "Source/map_2.jpg"
+                ImgUrl = "Source/map_2.png"
                 PointColor = Color_2;
                 PointShindo = "震度2";
             } else if (element == "30") {
-                ImgUrl = "Source/map_3.jpg"
+                ImgUrl = "Source/map_3.png"
                 PointColor = Color_3;
                 PointShindo = "震度3";
             } else if (element == "40") {
-                ImgUrl = "Source/map_4.jpg"
+                ImgUrl = "Source/map_4.png"
                 PointColor = Color_4;
                 PointShindo = "震度4";
             } else if (element == "45") {
-                ImgUrl = "Source/map_50.jpg"
+                ImgUrl = "Source/map_50.png"
                 PointColor = Color_50;
                 PointShindo = "震度5弱";
             } else if (element == "46") {
-                ImgUrl = "Source/map_50.jpg"
+                ImgUrl = "Source/map_50.png"
                 PointColor = Color_50;
                 PointShindo = "震度5弱以上と推定";
             } else if (element == "50") {
-                ImgUrl = "Source/map_55.jpg"
+                ImgUrl = "Source/map_55.png"
                 PointColor = Color_55;
                 PointShindo = "震度5強";
             } else if (element == "55") {
-                ImgUrl = "Source/map_60.jpg"
+                ImgUrl = "Source/map_60.png"
                 PointColor = Color_60;
                 PointShindo = "震度6弱";
             } else if (element == "60") {
-                ImgUrl = "Source/map_65.jpg"
+                ImgUrl = "Source/map_65.png"
                 PointColor = Color_65;
                 PointShindo = "震度6強";
             } else if (element == "70") {
-                ImgUrl = "Source/map_7.jpg"
+                ImgUrl = "Source/map_7.png"
                 PointColor = Color_7;
                 PointShindo = "震度7";
             }
@@ -673,43 +673,43 @@ function QuakeSelect(num) {
             var PointShindo = "";
             var PointColor;
             if (element["scale"] == 10) {
-                ImgUrl = "Source/map_1.jpg"
+                ImgUrl = "Source/map_1.png"
                 PointShindo = "震度1";
                 PointColor = Color_1;
             } else if (element["scale"] == 20) {
-                ImgUrl = "Source/map_2.jpg"
+                ImgUrl = "Source/map_2.png"
                 PointColor = Color_2;
                 PointShindo = "震度2";
             } else if (element["scale"] == 30) {
-                ImgUrl = "Source/map_3.jpg"
+                ImgUrl = "Source/map_3.png"
                 PointColor = Color_3;
                 PointShindo = "震度3";
             } else if (element["scale"] == 40) {
-                ImgUrl = "Source/map_4.jpg"
+                ImgUrl = "Source/map_4.png"
                 PointColor = Color_4;
                 PointShindo = "震度4";
             } else if (element["scale"] == 45) {
-                ImgUrl = "Source/map_50.jpg"
+                ImgUrl = "Source/map_50.png"
                 PointColor = Color_50;
                 PointShindo = "震度5弱";
             } else if (element["scale"] == 46) {
-                ImgUrl = "Source/map_50.jpg"
+                ImgUrl = "Source/map_50.png"
                 PointColor = Color_50;
                 PointShindo = "震度5弱以上と推定";
             } else if (element["scale"] == 50) {
-                ImgUrl = "Source/map_55.jpg"
+                ImgUrl = "Source/map_55.png"
                 PointColor = Color_55;
                 PointShindo = "震度5強";
             } else if (element["scale"] == 55) {
-                ImgUrl = "Source/map_60.jpg"
+                ImgUrl = "Source/map_60.png"
                 PointColor = Color_60;
                 PointShindo = "震度6弱";
             } else if (element["scale"] == 60) {
-                ImgUrl = "Source/map_65.jpg"
+                ImgUrl = "Source/map_65.png"
                 PointColor = Color_65;
                 PointShindo = "震度6強";
             } else if (element["scale"] == 70) {
-                ImgUrl = "Source/map_7.jpg"
+                ImgUrl = "Source/map_7.png"
                 PointColor = Color_7;
                 PointShindo = "震度7";
             }
